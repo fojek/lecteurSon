@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<title>Frère Bruno-Marie's lecteur de son HTML5!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+<body class="w3-content w3-black" style="max-width:1000px;" style="min-width:750px">
+<header class="w3-display-container w3-center">
+<img class="w3-image" src="./duguay.jpg" alt="Image 1" style="min-width:750px" width="2222" height="1805">
+	<div class="w3-display-middle w3-padding" style="width:40%; min-width:500px">
+	  <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large" style="min-width:500px">
+		<h1 class="w3-xlarge">Frère Bruno-Marie's lecteur de son HTML5!</h1>
+		<hr class="w3-opacity">
+		<table align = 'center' style="width:100%">
+			<tr>
+				<th align='left'>Fichier Audio :
+				<th align='left'><input type="text" id="inp-fichier" value='son.wav'/>
+				<th><div id='div-infos-son'></div>
+			</tr>
+			<tr>
+				<th align='left'>Décalage lecture :<br>
+				<th align='left'><input type="text" id="inp-temps" value = '1.12.25'/>
+				<th><div id='div-infos-temps'></div>
+			</tr>
+			<tr>
+				<th align='left'>Compensation PC :<br>
+				<th align='left'><input type="text" id="inp-compensPC" value = '88'/>
+				<th><div id='div-infos-compensPC'></div>
+			</tr>
+		</table>
+	
+	<br><h3><div id='div-statut'><font color="red">Statut : à l'arrêt</font></div></h3>
+	
+	<h3>Instructions :</h3>
+	Touche Espace : démarrer/arreter la lecture<br>
+	Touche Entrée : charge le son
+	      </div>
+    </div>
+	</header>
+	
+<script type="text/javascript" src="./lecteurSon.js"/></script>
+</body>
+</html>
