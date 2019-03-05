@@ -15,7 +15,7 @@ Il y a deux étapes :
 Faire le raccourci, puis entrer le temps désiré dans un des formats suivants :
   * `123` = 123 secondes
   * `1.23` = 1 minute 23 secondes = 83 secondes
-  * `1.23.1` = 1 minute 23 secondes et 100 ms = 83.1 secondes
+  * `1.23.1` = 1 minute 23 secondes et 1 frame = 83.1/30 secondes (fps = 30)
 
 Le temps entrée sera mémorisé pour le prochain appel.
 
@@ -29,4 +29,5 @@ Le raccourci fait les tâches suivantes :
  * Envoie la touche `Espace`
 
 ## Révisions
- * `v0.9.0` (2017-09-01) : Pour commentaires
+ * `v1.0.0` (2019-03-05) : Rev 1 - Ajout de la fonction rechargement, remplacement ms par fps
+ * `v0.9.0` (2018-09-01) : Pour commentaires
